@@ -1,9 +1,17 @@
 @charset "utf-8";
 
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+}
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
 body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color: silver;
+    color: aliceblue;
 }
 
 header {
@@ -34,7 +42,7 @@ header {
 }
 
 #menu a:hover{
-    color:green;
+    color:seagreen;
 }
 
 #top h1, #top h2, #top p{
@@ -47,14 +55,15 @@ main{
     width:900px;
     margin: 0  auto;
     padding: 10px;
+    color: black;
 }
 section {
     margin-bottom: 20px;
 }
 section h1 {
     font-size: 18px;
-    border-left: 15px navy solid;
-    border-bottom: 1px navy solid;
+    border-left: 15px dimgray solid;
+    border-bottom: 1px dimgray solid;
     padding-left: 10px;
 }
 section p {
